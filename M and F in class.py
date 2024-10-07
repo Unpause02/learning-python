@@ -1,0 +1,6 @@
+M = int(input("Enter number of Males: "))
+F = int(input("Enter number of Females: "))
+m = (M/(M+F)*100)
+f = (F/(M+F)*100)
+print("Percent Male = " + str(m) + "%")
+print("Percent Female = " + str(f) + "%")      

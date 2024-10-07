@@ -1,0 +1,5 @@
+Charge = float(input("Amount Charged: "))
+Percent = (Charge*0.18)
+Sales = (Charge*0.07)               
+print("Amount tipped: " + str(Percent))
+print("Amount taxxed: " + str(Sales))
